@@ -30,7 +30,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 #### Mobile Layout
 
-![](.images/screenshot-mobile.jpg)
+![](./images/screenshot-mobile.jpg)
 
 ### Links
 
