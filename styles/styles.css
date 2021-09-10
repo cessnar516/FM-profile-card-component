@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #19a2ae;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-position: right 50vw bottom 45vh, 45vw 50vh;
+  background-repeat: no-repeat no-repeat;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  color: #6a6f81;
+  height: 100vh;
+}
+@media screen and (min-width: 730px) {
+  body {
+    padding: 4em;
+  }
+}
+
+h1 {
+  color: #2d3248;
+  text-align: center;
+  margin-bottom: 1em;
+}
+@media screen and (min-width: 730px) {
+  h1 {
+    margin-bottom: 2em;
+  }
+}
+
+.card {
+  text-align: center;
+  width: 90%;
+  max-width: 350px;
+  border-radius: 15px;
+  margin: 0 auto;
+  background: white;
+  background-image: url("../images/bg-pattern-card.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-top: 5em;
+  box-shadow: 0px 5px 25px #6a6f81;
+}
+
+.profile-img {
+  border-radius: 100%;
+  border: 5px solid white;
+}
+
+h2 {
+  color: #2d3248;
+  font-size: 1em;
+  margin-bottom: 0.25em;
+}
+h2 span {
+  color: #6a6f81;
+  font-weight: 400;
+  padding-left: 0.25em;
+}
+
+.location {
+  font-size: 0.8em;
+  margin: 0 0 1.5em;
+}
+
+.stats {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 2em 0;
+  border-top: 1px solid #969696;
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.stats li {
+  width: 6em;
+}
+.stats li span {
+  display: block;
+  font-size: 1.75em;
+  color: #2d3248;
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 2em;
+  color: #2d3248;
+}
+@media screen and (min-width: 730px) {
+  .attribution {
+    margin-top: 4em;
+  }
+}
+.attribution a {
+  color: #2d3248;
+}
+.attribution a:hover {
+  text-decoration: none;
+}
+.attribution a:focus {
+  outline: 1px solid #2d3248;
+}
+
+/*# sourceMappingURL=styles.css.map */
